@@ -11,4 +11,5 @@ int main(void) {
     std::cout << "C: "<< C << std::endl;
     std::cout << "D: "<< D << std::endl;
     std::cout << "A * 2: "<< A*2  << std::endl;
+    std::cout << "2 * A : "<< 2 * A  << std::endl;
 }

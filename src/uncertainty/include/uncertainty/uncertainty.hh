@@ -33,7 +33,7 @@ struct Measurement
             return {f, Square(f) * (Square(variance / mu) + Square(B.variance / B.mu)) };
         }
 
-        friend Measurement operator * (const Scalar & a, const Measurement & A) {
+        friend Measurement operator * (const Scalar & a, const Measurement & A) const {
             return A * a;
         }
 
